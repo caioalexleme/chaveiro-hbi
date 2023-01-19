@@ -15,7 +15,7 @@ body{
 }
 
 .formulario {
-    background: black url(../imagens/IMG-20230117-WA0007.jpg) no-repeat;
+    background: white url(../imagens/IMG-20230117-WA0007.jpg) no-repeat;
     background-size: contain;
     position: relative;
     width: 90vw;
@@ -23,6 +23,7 @@ body{
     margin: auto;
     margin-top: 20px;
     height: 500px;
+    max-height: 500px;
     border-radius: 20px 20px 00px 0px;
     
 }
@@ -39,9 +40,17 @@ div {
     margin: auto;
 }
 
-.icones > img {
+.icones > a > img {
     width: 50px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+
+.icones > a > img:hover {
+    border: 3px solid rgba(0, 0, 0, 0.562);
+    box-sizing: border-box;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .3s, border .7s;
 }
