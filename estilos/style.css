@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background-color: aqua;
+}
+
+.formulario {
+    background: black url(../imagens/IMG-20230117-WA0007.jpg) no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 90vw;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    height: 500px;
+    border-radius: 20px 20px 00px 0px;
+    
+}
+
+div {
+    display: block;
+}
+
+.icones {
+    background-color: white;
+    width: 90vw;
+    max-width: 500px;
+    border-radius: 0px 0px 20px 20px;
+    margin: auto;
+}
+
+.icones > img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
