@@ -3,55 +3,52 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html{
-    width: 100vw;
     height: 100vh;
 }
 
 body{
-    background-color: aqua;
+    background: url(../imagens/pexels-caio-64609.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.formulario {
-    background: white url(../imagens/IMG-20230117-WA0007.jpg) no-repeat;
-    background-size: contain;
-    background-position: center;
-    position: relative;
-    width: 90vw;
-    max-width: 350px;
-    margin: auto;
-    margin-top: 20px;
-    height: 350px;
-    max-height: 300px;
-    border-radius: 20px 20px 00px 0px;
-    
+header {
+    background-color: black;
+    height: 120px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    opacity: .8;
 }
 
-div {
-    display: block;
-}
-
-.icones {
-    background-color: white;
-    width: 90vw;
-    max-width: 350px;
-    border-radius: 0px 0px 20px 20px;
-    margin: auto;
-}
-
-.icones > a > img {
-    width: 50px;
-    margin: 10px;
+header > img {
     border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
 }
 
-.icones > a > img:hover {
-    border: 3px solid rgba(0, 0, 0, 0.562);
-    box-sizing: border-box;
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
-    transition: transform .3s, border .7s;
+header > menu#itens {
+    display: none;
+}
+
+header > span#burguer {
+    color: white;
+    cursor: pointer;
+}
+
+header > menu > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    background-color: aqua;
+    opacity: .5;
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
 }

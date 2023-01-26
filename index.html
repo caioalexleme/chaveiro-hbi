@@ -7,15 +7,48 @@
     <title>HBI CHAVEIRO | SEU CHAVEIRO DE CONFIANÇA</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
-    <div class="formulario">
+<body onresize="mudouTamanho()">
 
-    </div>
-    <div class="icones">
-        <a href="https://web.whatsapp.com/send?phone=5511932982390&?text=eaí" target="_blank"><img src="imagens/whatsapp.png" alt="WhatsApp"></a>
-        <a href="https://www.instagram.com/hbichaveiro/" target="_blank"><img src="imagens/logo-instagram.jpg" alt=""></a>
-    </div>
+    <header id="home">
+        <img src="imagens/IMG-20230117-WA0007.jpg" alt="Chaveiro HBI - São Paulo ABC e região - Atendimento dia e noite 24 horas por dia - contato whatsapp 11 93298 2390 11 94183 5936" height="100px">
+        <span id="burguer" class="material-icons" onclick="clickMenu()">
+            menu
+        </span>        
+        <menu id="itens">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="">Sobre nós</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Localização</a></li>
+                
+            </ul>
+        </menu>
+    </header>
 
+    <main>
+
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+            itens.style.display = 'none' 
+            } else {
+            itens.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+    </script>
 </body>
 </html>
