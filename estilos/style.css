@@ -2,53 +2,36 @@
 
 *{
     margin: 0;
-    padding: 0;
+    padding: 0;    
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html{
+html {
     height: 100vh;
 }
 
-body{
-    background: url(../imagens/pexels-caio-64609.jpg) no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 
 header {
-    background-color: black;
-    height: 120px;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    opacity: .8;
-}
-
-header > img {
-    border-radius: 50%;
-}
-
-header > menu#itens {
-    display: none;
-}
-
-header > span#burguer {
-    color: white;
-    cursor: pointer;
-}
-
-header > menu > ul > li > a {
-    color: white;
-    text-decoration: none;
-}
-
-main{
-    background-color: aqua;
-    opacity: .5;
-    width: 80vw;
-    height: 80vh;
+    width: 97vw;
     margin: auto;
+    border: 2px solid red;
+    padding: 20px;
+}
+
+header > div.logo > img {
+    height: 100px;
+}
+
+header > div.menu {
+    text-align: center;
+}
+
+header > div.menu > ul {
+    list-style-type: none;
+}
+
+header > div.menu > ul > li > a {
+    text-decoration: none;
 }
