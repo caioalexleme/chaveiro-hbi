@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px) {
+    header.cabecalho{
+        display: flex;
+        justify-content: space-around;
+        height: 423px;
+        position: relative;
+    }
+
+    header.cabecalho > div.logo {
+        top: -12%;
+    }
+
+    header.cabecalho > div.logo > img {
+        height: 470px;
+    
+    }
+
+    header.cabecalho > span#burguer {
+        display: none;
+    }
+
+
+    header.cabecalho > div.menu {
+        display: block;
+        position: relative;
+        top: 90%;
+        left: 0%;
+        height: 46px;
+        text-align: left;
+    }
+
+    header.cabecalho > div.menu > ul{
+        background-color: black;
+        position: relative;
+
+    }
+    
+    header.cabecalho > div.menu > ul > li {
+        display: inline;
+        font-size: 1.2em;
+    }
+
+    header.cabecalho > div.menu > ul > li > a {
+        background-color: transparent;
+        color: white;
+    }
+}

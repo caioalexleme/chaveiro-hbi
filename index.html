@@ -9,14 +9,20 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onresize="mudouTamanho()">
 
     <header class="cabecalho">
         <div class="logo">
             <img src="imagens/IMG-20230117-WA0007.jpg" alt="">
         </div>
-        <div class="menu">
+        <span id="burguer" class="material-icons" onclick="clickMenu()">
+            menu
+        </span>
+        <div class="menu" id="menu">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Serviços</a></li>
@@ -25,7 +31,7 @@
             </ul>
         </div>
     </header>
-
+<!--
     <main class="corpo">
         <section class="servicos">
             <div class="img-servicos">
@@ -58,13 +64,33 @@
         </section>
 
     </main>
-
+-->
     <footer class="rodape">
         <div class="copy">
             <p>Copyright © 2023 HBI Chaveiro. Todos os direitos reservados.</p>
             <p>Desenvolvido por Caio Alexandre</p>
         </div>
     </footer>
+
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block'){
+            menu.style.display = 'none' 
+            } else {
+            menu.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                burguer.style.display = 'none'
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+                burguer.style.display = 'block'
+            }
+        }
+    </script>
 
 </body>
 </html>

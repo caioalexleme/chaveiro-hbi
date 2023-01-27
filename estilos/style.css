@@ -5,33 +5,90 @@
     padding: 0;    
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 html {
     height: 100vh;
 }
 
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
 
 
-header {
-    width: 97vw;
+
+header.cabecalho {
+    width: 100vw;
     margin: auto;
+    max-width: 1920px;
+    height: 242px;
+    position: fixed;
     border: 2px solid red;
     padding: 20px;
+    background: url(../imagens/pexels-caio-64609.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-header > div.logo > img {
-    height: 100px;
+header.cabecalho > div.logo {
+    position: absolute;
+    top: -2%;
+    left: -25px;
+    opacity: .8;
 }
 
-header > div.menu {
+header.cabecalho > div.logo > img {
+    height: 243px;
+}
+
+header.cabecalho > span#burguer {
+    font-size: 2em;
+    padding: 4px;
+    margin: auto;
+    background-color: black;
+    border-radius: 10px;
+    opacity: .8;
+    color: white;
+    display: block;
+    position: absolute;
+    top: 2%;
+    right: 1%;
     text-align: center;
+    cursor: pointer;
 }
 
-header > div.menu > ul {
+header.cabecalho > div.menu {
+    position: relative;
+    display: none;
+    text-align: right;
+    top: 20%;
+    margin-left: -20%;
+}
+
+header.cabecalho > div.menu > ul {
     list-style-type: none;
+    position: relative;
+    right: -27px;
 }
 
-header > div.menu > ul > li > a {
+header.cabecalho > div.menu > ul > li {
+    font-size: 1.2em;
+    padding: 10px;
+       
+}
+
+header.cabecalho > div.menu > ul > li > a {
     text-decoration: none;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: .8;
+}
+
+main.corpo {
+    padding-top: 300px;
 }
