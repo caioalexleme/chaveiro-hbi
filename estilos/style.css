@@ -6,6 +6,7 @@
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    transition-timing-function: ease;
 }
 
 html {
@@ -33,6 +34,7 @@ header.cabecalho {
     background: url(../imagens/pexels-caio-64609.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    box-shadow: 14px 2px 9px rgba(0, 0, 0, 0.096);
 }
 
 header.cabecalho > div.logo {
@@ -56,9 +58,8 @@ header.cabecalho > div.fixo {
 header.cabecalho > div.fixo > span#burguer {
     font-size: 2em;
     padding: 4px;
-    background-color: rgba(0, 0, 0, 0.719);
+    background-color: black;
     border-radius: 10px;
-    opacity: .9;
     color: white;
     display: block;
     position: absolute;
@@ -80,6 +81,7 @@ header.cabecalho > div.fixo > div.menu > ul {
     list-style-type: none;
     position: relative;
     margin-top: 4%;
+    box-shadow: 14px 2px 20px rgba(0, 0, 0, 0.11);
 }
 
 header.cabecalho > div.fixo > div.menu > ul > li {
@@ -98,8 +100,20 @@ header.cabecalho > div.fixo > div.menu > ul > li > a {
     opacity: .9;
 }
 
+header.cabecalho > div.fixo > div.menu > ul > li > a:hover {
+    background-color: lightgrey;
+    color: black;
+    transition: .35s;    
+}
+
+header.cabecalho > div.fixo > div.menu > ul > li > a:active {
+    background-color: rgb(148, 148, 148);
+    color: rgba(0, 0, 0, 0.582);
+}
+
 
 
 main.corpo > section.servicos {
-    padding: 20px;
+    padding: 50px;
+    text-align: center;
 }

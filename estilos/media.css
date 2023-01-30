@@ -5,7 +5,7 @@
     header.cabecalho{
         display: flex;
         justify-content: space-around;
-        height: 468px;
+        height: 532px;
         position: relative;
     }
 
@@ -16,7 +16,7 @@
     header.cabecalho > div.logo > img {
         height: 470px;
         position: relative;
-        top: 54px;
+        top: 126px;
     
     }
 
@@ -35,7 +35,7 @@
 
     header.cabecalho > div.fixo > div.menu > ul{
         background-color: rgba(0, 0, 0, 0.719);
-        padding: 7px;
+        padding: 20px 7px;
         margin: auto;
         border-radius: 3px;
         text-align: center;
@@ -50,7 +50,6 @@
         background-color: transparent;
         color: white;
         font-size: 1em;
-        
     }
 }
 
