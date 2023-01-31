@@ -111,6 +111,36 @@ header.cabecalho > div.fixo > div.menu > ul > li > a:active {
     color: rgba(0, 0, 0, 0.582);
 }
 
+header.cabecalho > div.wpp {
+   position: fixed;
+   width: 100vw;
+   max-width: 1920px;
+   text-align: right;
+   padding: 10px 30px;
+   top: 85vh;
+}
+
+header.cabecalho > div.wpp > a > img {
+    height: 60px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    border-radius: 50%;
+}
+
+header.cabecalho > div.wpp > a > img:hover {
+    border: 3px solid rgba(255, 255, 255, 0.637);
+    box-sizing: border-box;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .3s, border .7s;
+}
+
+header.cabecalho > div.wpp > a > img:active {
+    border: 3px solid rgba(255, 255, 255, 0.637);
+    box-sizing: border-box;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .3s, border .7s;
+}
 
 
 main.corpo > section.servicos {
