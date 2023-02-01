@@ -117,7 +117,7 @@ header.cabecalho > div.wpp {
    max-width: 1920px;
    text-align: right;
    padding: 10px 30px;
-   top: 85vh;
+   bottom: 2px;
 }
 
 header.cabecalho > div.wpp > a > img {
