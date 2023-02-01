@@ -147,23 +147,31 @@ main.corpo > section.servicos {
     width: 100vw;
     max-width: 1920px;
     margin: auto;
-    background: url(../imagens/img-home.jpg) no-repeat center;
-    background-size: contain;
+    
     
 }
 
 .txt-servicos {
-    background-color: rgba(255, 255, 255, 0.425);
-    padding: 20px 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .txt-servicos > h2{
     font-family: 'Outfit', sans-serif;
-    text-shadow: 0.5px 0.5px 1px black;
+    font-size: 1.6em;
+    text-shadow: 1px 1px 3px black;
     margin-bottom: 15px;
     text-align: center;
+    padding: 5px;
 }
 
-.txt-servicos > p {
+.img-servicos > img {
+    height: 66px;
+}
+
+.paragrafo > p {
     font-family: 'Prompt', sans-serif;
+    padding: 0px 25px;
+    font-size: 1.2em;
 }
