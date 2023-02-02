@@ -31,11 +31,10 @@ header.cabecalho {
     height: 238px;
     position: relative;
     padding: 20px;
-    background: url(../imagens/pexels-caio-64609.jpg) no-repeat;
+    background: url(../imagens/pexels-skitterphoto-615350.jpg) no-repeat;
     background-size: cover;
-    background-position: center;
-    box-shadow: 14px 2px 9px rgba(0, 0, 0, 0.096);
-    
+    background-position: center ;
+    box-shadow: 14px 2px 9px rgba(0, 0, 0, 0.096);   
 }
 
 header.cabecalho > div.logo {
@@ -84,7 +83,7 @@ header.cabecalho > div.fixo > div.menu {
 header.cabecalho > div.fixo > div.menu > ul {
     list-style-type: none;
     position: relative;
-    box-shadow: 14px 2px 20px rgba(0, 0, 0, 0.11);
+    
 }
 
 header.cabecalho > div.fixo > div.menu > ul > li {
@@ -177,4 +176,18 @@ main.corpo > section.servicos {
     padding: 0px 30px;
     font-size: 1.3em;
     
+}
+
+.img-chaves {
+    margin-top: 20px;
+    text-align: center;
+    padding: 30px 10px;
+    background-image: linear-gradient(to right, #9600FF, #AEBAF8);
+    
+}
+
+.img-chaves > img {
+    width: 250px;
+    height: 70vh;
+    border-radius: 20px;
 }
