@@ -2,7 +2,7 @@
 
 @media (min-width: 500px) {
     .txt-servicos > h2 {
-        font-size: 2em;
+        font-size: 1.7em;
     }
 
     .paragrafo > p {
@@ -12,12 +12,12 @@
 
 @media (min-width: 644px) {
     .txt-servicos > h2 {
-        font-size: 2.8em;
+        font-size: 2.4em;
     }
 
     .paragrafo > p {
         font-size: 2em;
-        text-indent: 2em;
+    
     }
 }
 
@@ -76,7 +76,7 @@
     }
 
     .txt-servicos > h2 {
-        font-size: 3.4em;
+        font-size: 2.8em;
     }
 
     .img-servicos > img {
@@ -86,9 +86,17 @@
     .paragrafo > p {
         font-size: 2.2em;
         font-weight: bolder;
-        text-indent: 3em;
+        
+        
     }
 
+}
+
+@media (min-width: 992px) {
+    .paragrafo > p {
+        padding: 0px 50px;
+        text-indent: 3em;
+    }
 }
 
 @media (min-width: 1614px) {

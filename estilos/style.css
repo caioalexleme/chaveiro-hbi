@@ -154,7 +154,7 @@ main.corpo > section.servicos {
 }
 
 .txt-servicos {
-    padding: 15px;
+    padding: 15px 24px;
     display: flex;
     justify-content: center;
 }
@@ -174,7 +174,7 @@ main.corpo > section.servicos {
 
 .paragrafo > p {
     font-family: 'Prompt', sans-serif;
-    padding: 0px 40px;
+    padding: 0px 30px;
     font-size: 1.3em;
     
 }
