@@ -1,38 +1,17 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 340px) {
-    .img-chaves > img {
-        width: 280px;
-        height: 80vh;
-    }    
-}
-
-@media screen and (min-width: 380px) {
-    .img-chaves > img {
-        width: 300px;
-        height: 85vh;
-    }    
-}
-
-@media screen and (min-width: 400px) {
-    .img-chaves > img {
-        width: 340px;
-        height: 90vh;
-    }    
-}
-
-@media screen and (min-width: 450px) {
-    
+@media (min-width: 468px) {
     .img-chaves {
         display: flex;
         justify-content: space-around;
     }
-    
+
     .img-chaves > img {
         width: 140px;
-        height: 45vh;
-    }    
+        height: 187px;
+    }
 }
+
 
 @media (min-width: 500px) {
     .txt-servicos > h2 {
@@ -41,6 +20,18 @@
 
     .paragrafo > p {
         font-size: 1.7em;
+    }
+
+    .img-chaves > img {
+        width: 155px;
+        height: 207px;
+    }
+}
+
+@media (min-width: 600px) {
+    .img-chaves > img {
+        width: 190px;
+        height: 254px;
     }
 }
 
@@ -56,16 +47,11 @@
 
     .img-chaves > img {
         width: 200px;
-        height: 60vh;
+        height: 267px;
     }
+
 }
 
-@media (min-width: 900px) {
-    .img-chaves > img {
-        width: 282px;
-        height: 87vh;
-    }
-}
 
 
 @media screen and (min-width: 768px){
@@ -132,8 +118,12 @@
     .paragrafo > p {
         font-size: 2.2em;
         font-weight: bolder;
-        
-        
+        text-indent: 3em;        
+    }
+
+    .img-chaves > img {
+        width: 248px;
+        height: 332px;
     }
 
 }
@@ -141,7 +131,18 @@
 @media (min-width: 992px) {
     .paragrafo > p {
         padding: 0px 50px;
-        text-indent: 3em;
+    }
+
+    .img-chaves > img {
+        width: 322px;
+        height: 431px;
+    }
+}
+
+@media (min-width: 1320px) {
+    .img-chaves > img {
+        width: 430px;
+        height: 575px;
     }
 }
 
@@ -154,6 +155,11 @@
     .paragrafo > p {
         font-size: 2.4em;
     }
+
+    .img-chaves > img {
+        width: 528px;
+        height: 706px;
+    }
 }
 
 @media (min-width: 1750px) {
@@ -162,5 +168,10 @@
     }
     .paragrafo > p {
         font-size: 2.6em;
+    }
+
+    .img-chaves > img {
+        width: 573px;
+        height: 766px;
     }
 }

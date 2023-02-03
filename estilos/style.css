@@ -153,7 +153,7 @@ main.corpo > section.servicos {
 }
 
 .txt-servicos {
-    padding: 15px 24px;
+    padding: 25px;
     display: flex;
     justify-content: center;
 }
@@ -162,7 +162,7 @@ main.corpo > section.servicos {
     font-family: 'Outfit', sans-serif;
     font-size: 1.5em;
     text-shadow: 1px 1px 3px black;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     text-align: center;
     padding: 5px;
 }
@@ -179,15 +179,19 @@ main.corpo > section.servicos {
 }
 
 .img-chaves {
-    margin-top: 20px;
+    width: 99.5vw;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
     text-align: center;
     padding: 30px 10px;
-    background-image: linear-gradient(to right, #9600FF, #AEBAF8);
+    background-image: linear-gradient(to right, #771d32c2, #e65757c7);
+    box-shadow: 1px -1px 2px rgba(0, 0, 0, 0.281);
     
 }
 
 .img-chaves > img {
     width: 250px;
     height: 70vh;
-    border-radius: 20px;
+    border-radius: 10px;
 }
